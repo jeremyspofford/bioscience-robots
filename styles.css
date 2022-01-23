@@ -105,7 +105,9 @@ img {
 }
 
 .project figcaption,
-.project figcaption a {
+.project figcaption a,
+.team-card figcaption, 
+.team-card figcaption a {
   font-size: .5rem;
   color: rgba(0, 0, 0, 0.4);
 }
@@ -128,13 +130,63 @@ img {
 }
 
 #team {
-  width: 100%;
+  background-image: url('./images/ian-schneider-TamMbr4okv4-unsplash.jpg');
+  border-radius: 10px;
+  padding: 36px;
+}
+
+#team h3 {
+  font-size: 2rem;
+  color: rgba(255, 255, 255, 0.9);
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 24px;
+  border-radius: 5px;
+  margin-top: 0;
+}
+
+.team-card {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.team-card img {
+  box-shadow: 2px 2px 8px rgba(255, 255, 255, 0.4);
+  border-radius: 10px;
+}
+.team-card figcaption, 
+.team-card figcaption a {
+  font-size: .5rem;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.team-member-info {
+  text-align: left;
+  width: 50%;
+  background-color: rgba(255, 255, 255, 0.6);
+  padding: 24px;
+  margin: 0 auto;
+  border-radius: 10px 10px 10px 0px;
 }
 
 .team-card img {
   width: 300px;
 }
 
+.team-card .info {
+  font-size: 0.8rem;
+}
+
 footer {
   text-align: center;
+  margin-bottom: 80px;
+}
+
+footer address {
+  display: inline-block;
+  font-size: 0.8rem;
+}
+
+footer address p {
+  line-height: 0.5;
 }
