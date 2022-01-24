@@ -194,7 +194,7 @@ footer address p {
 
 /* Media */
 
-@media screen and (max-width: 460px) {
+/* @media screen and (max-width: 460px) {
 
   h1 {
     font-size: 5rem;
@@ -277,4 +277,4 @@ footer address p {
     font-size: 24px;
   }
 
-}
+} */
