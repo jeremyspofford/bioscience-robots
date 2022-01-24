@@ -206,10 +206,6 @@ footer address p {
     margin-top: 96px;
   }
 
-  /* .team-card:nth-child(2n+1) {
-    flex-flow: row-reverse;
-  } */
-
   .team-card figure {
     width: 50%;
   }
