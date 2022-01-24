@@ -49,16 +49,16 @@ nav li {
 }
 
 section {
-  margin: 36px 0 96px 0;
+  margin: 56px 0;
   min-height: 800px;
   height: 100%;
+  border-radius: 10px;
 }
 
 #mission {
   background-image: url('./images/milada-vigerova-iQWvVYMtv1k-unsplash.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-  border-radius: 10px;
   display: flex;
   align-items: center;
 }
@@ -80,6 +80,8 @@ section {
 
 #portfolio {
   text-align: center;
+  padding: 36px 0;
+  background-color: rgba(0, 0, 0, 0.05);
 }
 
 .projects {
@@ -92,16 +94,16 @@ img {
   box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.4);
 }
 
+.project {
+  width: 400px;
+  margin-top: 3rem;
+}
+
 .projects img {
   width: 300px;
   object-fit: cover;
   height: 300px;
   border-radius: 10px;
-}
-
-.project {
-  width: 400px;
-  margin-top: 3rem;
 }
 
 .project figcaption,
@@ -131,7 +133,6 @@ img {
 
 #team {
   background-image: url('./images/ian-schneider-TamMbr4okv4-unsplash.jpg');
-  border-radius: 10px;
   padding: 36px;
 }
 
